@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!--Animate.css-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -32,14 +33,12 @@
             </div>
             <div class="header__hero-wrapper">
                 <div class="header__hero-text">
-                    <span class="header__hero-subtitle">Фрилансер</span>
-                    <h1 class="header__hero-title">Артем Исламов</h1>
-                    <p class="header__hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+                    <span class="header__hero-subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">Фрилансер</span>
+                    <h1 class="header__hero-title wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">Артем Исламов</h1>
+                    <p class="header__hero-description wow animate__animated animate__fadeInRight" data-wow-delay="0.9s">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
                     <button class="button header__hero-button">Бесплатная консультация</button>
                 </div>
-                <div class="header__hero-avatar">
-
-                </div>
+                <div class="header__hero-avatar wow animate__animated animate__fadeIn" data-wow-delay="1.5s"></div>
             </div>
         </div>
     </header>
@@ -48,32 +47,32 @@
             <div class="container">
                 <h2 class="title features__title features__title--margin">Со мной удобно работать</h2>
                 <div class="features__wrapper">
-                    <div class="features__item features__item--margin">
+                    <div class="features__item features__item--margin wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
                         <img src="img/features/features-1.svg" alt="Image: Feature" class="features__item-image">
                         <h3 class="features__item-title">По договору</h3>
                         <p class="features__item-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
                     </div>
-                    <div class="features__item features__item--margin">
+                    <div class="features__item features__item--margin wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
                         <img src="img/features/features-2.svg" alt="Image: Feature" class="features__item-image">
                         <h3 class="features__item-title">Точно в срок</h3>
                         <p class="features__item-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
                     </div>
-                    <div class="features__item features__item--margin">
+                    <div class="features__item features__item--margin wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
                         <img src="img/features/features-3.svg" alt="Image: Feature" class="features__item-image">
                         <h3 class="features__item-title">Ценник под вас</h3>
                         <p class="features__item-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
                     </div>
-                    <div class="features__item features__item--margin">
+                    <div class="features__item features__item--margin wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
                         <img src="img/features/features-4.svg" alt="Image: Feature" class="features__item-image">
                         <h3 class="features__item-title">Премежуточные итоги</h3>
                         <p class="features__item-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком. </p>
                     </div>
-                    <div class="features__item features__item--margin">
+                    <div class="features__item features__item--margin wow animate__animated animate__fadeInUp" data-wow-delay="1s">
                         <img src="img/features/features-5.svg" alt="Image: Feature" class="features__item-image">
                         <h3 class="features__item-title">Хостинг и домен </h3>
                         <p class="features__item-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
                     </div>
-                    <div class="features__item features__item--margin">
+                    <div class="features__item features__item--margin wow animate__animated animate__fadeInUp" data-wow-delay="1.2s">
                         <img src="img/features/features-6.svg" alt="Image: Feature" class="features__item-image">
                         <h3 class="features__item-title">Не брошу после сдачи</h3>
                         <p class="features__item-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
@@ -128,5 +127,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

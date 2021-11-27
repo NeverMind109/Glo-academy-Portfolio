@@ -368,7 +368,7 @@ body {
     color: #949494; }
 
 .header {
-  padding: 50px 0 155px;
+  padding: 55px 0 160px;
   background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%); }
   .header__wrapper {
     display: -webkit-box;
@@ -381,7 +381,7 @@ body {
         -ms-flex-align: center;
             align-items: center; }
     .header__wrapper--margin {
-      margin-bottom: 105px; }
+      margin-bottom: 115px; }
   .header__home-page {
     text-decoration: none; }
   .header__social-link {
@@ -399,7 +399,7 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .header__hero-subtitle {
-    display: inline-block;
+    display: block;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
