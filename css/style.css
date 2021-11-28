@@ -323,6 +323,9 @@ body {
   width: 90%;
   margin: auto; }
 
+image {
+  width: 100%; }
+
 .button {
   background: -webkit-gradient(linear, left top, left bottom, from(#FDDE76), to(#FFBB01));
   background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
@@ -627,5 +630,222 @@ body {
 
 .social-link:not(:last-child) {
   margin-right: 37px; }
+
+@media (max-width: 1100px) {
+  .header__hero-avatar {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #fff; }
+
+  .project__slide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .project__title {
+    text-align: center; }
+  .project__image {
+    width: 500px; }
+    .project__image--margin {
+      margin-bottom: 46px; }
+  .project__text {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto; }
+
+  .footer__title {
+    text-align: center; }
+  .footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .footer__contacts-form--margin {
+    margin-bottom: 58px; }
+  .footer__information-phone, .footer__information-mail, .footer__information-social {
+    text-align: center; }
+  .footer__social-links {
+    text-align: center; }
+  .footer__policy {
+    display: block;
+    text-align: center; } }
+@media (max-width: 836px) {
+  .header__hero-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .header__hero-text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center; }
+  .header__hero-avatar {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1; }
+    .header__hero-avatar--margin {
+      margin-bottom: 17px; }
+
+  .features__item {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%; }
+
+  .project__title {
+    text-align: left; }
+
+  .footer__title {
+    text-align: left; }
+  .footer__wrapper {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .footer__information-phone, .footer__information-mail, .footer__information-social {
+    text-align: left; }
+  .footer__social-links {
+    text-align: left; }
+  .footer__policy {
+    text-align: left; } }
+@media (max-width: 564px) {
+  .button {
+    font-size: 10px; }
+
+  .title {
+    font-size: 19px;
+    line-height: 22px; }
+
+  .header {
+    padding: 43px 0 75px; }
+    .header__wrapper--margin {
+      margin-bottom: 38px; }
+    .header__social-link:not(:last-child) {
+      margin-right: 10px; }
+    .header__hero-subtitle {
+      font-size: 16px;
+      line-height: 27px;
+      margin-bottom: 4px; }
+    .header__hero-title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 15px; }
+    .header__hero-description {
+      max-width: 420px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 140%;
+      margin: 0 0 34px; }
+    .header__hero-button {
+      line-height: 10px;
+      padding: 14px 25px; }
+    .header__hero-avatar {
+      width: 113px;
+      height: 113px;
+      background-position: center top -14px;
+      border: 4px solid #fff; }
+
+  .features {
+    padding: 64px 0 60px; }
+    .features__title {
+      text-align: center; }
+      .features__title--margin {
+        margin-bottom: 60px; }
+    .features__item {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; }
+      .features__item--margin {
+        margin-bottom: 30px; }
+      .features__item-title {
+        margin: 0 0 6px;
+        font-size: 18px; }
+      .features__item-text {
+        font-size: 14px; }
+
+  .projects {
+    padding: 47px 0; }
+    .projects__title {
+      text-align: center; }
+      .projects__title--margin {
+        margin-bottom: 49px; }
+
+  .projects-pagination--margin {
+    margin-top: 27px; }
+
+  .project__title {
+    font-size: 18px;
+    line-height: 150%; }
+  .project__image {
+    width: 90%; }
+  .project__time, .project__cost {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 33px; }
+  .project__paragraph {
+    font-size: 14px;
+    line-height: 16px; }
+
+  .footer {
+    padding: 47px 0 50px; }
+    .footer__title {
+      text-align: center; }
+      .footer__title--margin {
+        margin-bottom: 48px; }
+    .footer__wrapper {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .footer__contacts-form {
+      max-width: 260px;
+      width: 100%;
+      padding: 40px 19px 49px; }
+    .footer__contacts-title {
+      font-size: 15px;
+      line-height: 140%; }
+    .footer__contacts-button {
+      padding: 17px 7px; }
+    .footer__information-text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .footer__information-data {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      .footer__information-data--margin {
+        margin-bottom: 42px; }
+    .footer__information-phone, .footer__information-mail {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      margin-bottom: 53px; }
+    .footer__information-title {
+      margin: 0 0 12px;
+      font-size: 18px;
+      line-height: 21px; }
+    .footer__information-link {
+      font-size: 14px;
+      line-height: 16px; }
+    .footer__information-social {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; }
+    .footer__social-link:not(:last-child) {
+      margin-right: 20px; }
+    .footer__policy--margin {
+      margin-top: 26px; }
+
+  .social-link:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 13px; } }
 
 /*# sourceMappingURL=style.css.map */

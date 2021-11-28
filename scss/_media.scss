@@ -1,0 +1,285 @@
+@media (max-width: 1100px) {
+    .header {
+        &__hero {
+            &-avatar {
+                width: 300px;
+                height: 300px;
+                border: 10px solid #fff;
+            }
+        }
+    }
+    .project {
+        &__slide {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__image {
+            width: 500px;
+            &--margin {
+                margin-bottom: 46px;
+            }
+        }
+        &__text {
+            flex-basis: auto;
+        }
+    }
+    .footer {
+        &__title {
+            text-align: center;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__contacts {
+            &-form {
+                &--margin {
+                    margin-bottom: 58px;
+                }
+            }
+        }
+        &__information {
+            &-phone, &-mail, &-social {
+                text-align: center;
+            }
+        }
+        &__social-links {
+            text-align: center;
+        }
+        &__policy {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 836px) {
+    .header {
+        &__hero {
+            &-wrapper {
+                flex-direction: column;
+            }
+            &-text {
+                order: 1;
+                text-align: center;
+            }
+            &-avatar {
+                order: -1;
+                &--margin {
+                    margin-bottom: 17px;
+                }
+            }
+        }
+    }
+    .features {
+        &__item {
+            flex-basis: 45%;
+        }
+    }
+    .project {
+        &__title {
+            text-align: left;
+        }
+    }
+    .footer {
+        &__title {
+            text-align: left;
+        }
+        &__wrapper {
+            align-items: flex-start;
+        }
+        &__information {
+            &-phone, &-mail, &-social {
+                text-align: left;
+            }
+        }
+        &__social-links {
+            text-align: left;
+        }
+        &__policy {
+            text-align: left;
+        }
+    }
+}
+@media (max-width: 564px) {
+    .button {
+        font-size: 10px;
+    }
+    .title {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .header {
+        padding: 43px 0 75px;
+        &__wrapper {
+            &--margin {
+                margin-bottom: 38px;
+            }
+        }
+        &__social-link {
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+        &__hero {
+            &-subtitle {
+                font-size: 16px;
+                line-height: 27px;
+                margin-bottom: 4px;
+            }
+            &-title {
+                font-size: 24px;
+                line-height: 28px;
+                margin-bottom: 15px;
+            }
+            &-description {
+                max-width: 420px;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                margin: 0 0 34px;
+            }
+            &-button {
+                line-height: 10px;
+                padding: 14px 25px;
+            }
+            &-avatar {
+                width: 113px;
+                height: 113px;
+                background-position: center top -14px;
+                border: 4px solid #fff;
+            }
+        }
+    }
+    .features {
+        padding: 64px 0 60px;
+        &__title {
+            text-align: center;
+            &--margin {
+                margin-bottom: 60px;
+            }
+        }
+        &__item {
+            flex-basis: 100%;
+            &--margin {
+                margin-bottom: 30px;
+            }
+            &-title {
+                margin: 0 0 6px;
+                font-size: 18px;
+            }
+            &-text {
+                font-size: 14px;
+            }
+        }
+    }
+    .projects {
+        padding: 47px 0;
+        &__title {
+            text-align: center;
+            &--margin {
+                margin-bottom: 49px;
+            }
+        }
+    }
+    // Pagination
+    .projects{
+        &-pagination {
+            &--margin {
+                margin-top: 27px;
+            }
+        }
+    }
+    // Slide
+    .project {
+        &__title {
+            font-size: 18px;
+            line-height: 150%;
+        }
+        &__image {
+            width: 90%;
+        }
+        &__time, &__cost {
+            flex-basis: 100%;
+            margin-bottom: 33px;
+        }
+        &__paragraph {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    .footer {
+        padding: 47px 0 50px;
+        &__title {
+            text-align: center;
+            &--margin {
+                margin-bottom: 48px;
+            }
+        }
+        &__wrapper {
+            align-items: center;
+        }
+        &__contacts {
+            &-form {
+                max-width: 260px;
+                width: 100%;
+                padding: 40px 19px 49px;
+            }
+            &-title {
+                font-size: 15px;
+                line-height: 140%;
+            }
+            &-button {
+                padding: 17px 7px;
+            }
+        }
+        &__information {
+            &-text {
+                flex-basis: 50%;
+            }
+            &-data {
+                display: flex;
+                flex-wrap: wrap;
+                &--margin {
+                    margin-bottom: 42px;
+                }
+            }
+            &-phone, &-mail {
+                flex-basis: 100%;
+                margin-bottom: 53px;
+            }
+            &-title {
+                margin: 0 0 12px;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            &-link {
+                font-size: 14px;
+                line-height: 16px;
+            }
+            &-social {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+            }
+        }
+        &__social-link {
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+        &__policy {
+            &--margin {
+                margin-top: 26px;
+            }
+        }
+    }
+    .social-link {
+        &:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 13px;
+        }
+    }
+}
