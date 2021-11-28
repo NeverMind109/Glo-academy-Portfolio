@@ -49,3 +49,27 @@
         margin: 0;
     }
 }
+// Pagination
+.projects{
+    &-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--margin {
+            margin-top: 44px;
+        }
+    }
+    &-bullet {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #FFBB01;
+        border-radius: 50%;
+        &-active {
+            background: #FFBB01;
+        }
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}

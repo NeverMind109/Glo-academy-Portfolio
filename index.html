@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!--Animate.css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/> <!--Swiper slider-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -83,34 +84,94 @@
         <section class="projects">
             <div class="container">
                 <h2 class="title projects__title projects__title--margin">Последние проекты</h2>
-                <div class="projects__slider">
-                    <div class="project__slide">
-                        <img src="img/projects/project-1.png" alt="Image: Project" class="project__image">
-                        <div class="project__text">
-                            <h3 class="project__title">Сайт строительной фирмы “Велстрой”</h3>
-                            <div class="project__time">
-                                <img src="img/time-icon.svg" alt="Icon: Time" class="project__icon">
-                                <div class="project__description">
-                                    <h4 class="project__subtitle">Сроки</h4>
-                                    <p class="project__paragraph">4 рабочих дня</p>
+                <div class="swiper projects__slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                        <div class="swiper-slide project__slide">
+                            <img src="img/projects/project-1.png" alt="Image: Project" class="project__image">
+                            <div class="project__text">
+                                <h3 class="project__title">Сайт строительной фирмы “Велстрой”</h3>
+                                <div class="project__time">
+                                    <img src="img/time-icon.svg" alt="Icon: Time" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Сроки</h4>
+                                        <p class="project__paragraph">4 рабочих дня</p>
+                                    </div>
+                                </div>
+                                <div class="project__cost">
+                                    <img src="img/cost-icon.svg" alt="Icon: Cost" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Стоимость</h4>
+                                        <p class="project__paragraph">14 000 рублей</p>
+                                    </div>
+                                </div>
+                                <div class="project__feedback">
+                                    <img src="img/feedback-icon.svg" alt="Icon: Feedback" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Отзыв клиента</h4>
+                                        <p class="project__paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="project__cost">
-                                <img src="img/cost-icon.svg" alt="Icon: Cost" class="project__icon">
-                                <div class="project__description">
-                                    <h4 class="project__subtitle">Стоимость</h4>
-                                    <p class="project__paragraph">14 000 рублей</p>
+                        </div>
+                        <div class="swiper-slide project__slide">
+                            <img src="img/projects/project-1.png" alt="Image: Project" class="project__image">
+                            <div class="project__text">
+                                <h3 class="project__title">Сайт строительной фирмы “Велстрой”</h3>
+                                <div class="project__time">
+                                    <img src="img/time-icon.svg" alt="Icon: Time" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Сроки</h4>
+                                        <p class="project__paragraph">4 рабочих дня</p>
+                                    </div>
+                                </div>
+                                <div class="project__cost">
+                                    <img src="img/cost-icon.svg" alt="Icon: Cost" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Стоимость</h4>
+                                        <p class="project__paragraph">14 000 рублей</p>
+                                    </div>
+                                </div>
+                                <div class="project__feedback">
+                                    <img src="img/feedback-icon.svg" alt="Icon: Feedback" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Отзыв клиента</h4>
+                                        <p class="project__paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="project__feedback">
-                                <img src="img/feedback-icon.svg" alt="Icon: Feedback" class="project__icon">
-                                <div class="project__description">
-                                    <h4 class="project__subtitle">Отзыв клиента</h4>
-                                    <p class="project__paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                        </div>
+                        <div class="swiper-slide project__slide">
+                            <img src="img/projects/project-1.png" alt="Image: Project" class="project__image">
+                            <div class="project__text">
+                                <h3 class="project__title">Сайт строительной фирмы “Велстрой”</h3>
+                                <div class="project__time">
+                                    <img src="img/time-icon.svg" alt="Icon: Time" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Сроки</h4>
+                                        <p class="project__paragraph">4 рабочих дня</p>
+                                    </div>
+                                </div>
+                                <div class="project__cost">
+                                    <img src="img/cost-icon.svg" alt="Icon: Cost" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Стоимость</h4>
+                                        <p class="project__paragraph">14 000 рублей</p>
+                                    </div>
+                                </div>
+                                <div class="project__feedback">
+                                    <img src="img/feedback-icon.svg" alt="Icon: Feedback" class="project__icon">
+                                    <div class="project__description">
+                                        <h4 class="project__subtitle">Отзыв клиента</h4>
+                                        <p class="project__paragraph">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="projects-pagination projects-pagination--margin"></div>
                 </div>
             </div>
         </section>
@@ -162,6 +223,7 @@
         </div>
     </footer>
     <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!--Swiper slider-->
     <script src="js/main.js"></script>
 </body>
 </html>
